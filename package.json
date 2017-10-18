@@ -12,13 +12,7 @@
   "author": "Steve Hu, Nicholas Azar",
   "license": "MIT",
   "main": "./lib/index",
-  "files": [
-    "README.md",
-    "CHANGELOG.md",
-    "LICENSE",
-    "css",
-    "lib"
-  ],
+  "files": ["README.md", "CHANGELOG.md", "LICENSE", "css", "lib"],
   "repository": {
     "type": "git",
     "url": "https://github.com/networknt/react-schema-form.git"
@@ -65,9 +59,7 @@
     "test": "npm run lint && jest"
   },
   "jest": {
-    "testPathDirs": [
-      "src"
-    ],
+    "testPathDirs": ["src"],
     "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
     "unmockedModulePathPatterns": [
       "<rootDir>/node_modules/react",
