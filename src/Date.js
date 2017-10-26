@@ -30,7 +30,7 @@ class Date extends React.Component {
         }
 
         return (
-            <div style={{width: '100%', display: 'block'}} className={this.props.form.htmlClass}>
+            <div className={this.props.form.htmlClass}>
                 <DatePicker
                     mode={'landscape'}
                     autoOk={true}
