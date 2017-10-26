@@ -14,7 +14,7 @@ class Checkbox2 extends React.Component {
   }
   render() {
     return (
-      <div className={this.props.form.className}>
+      <div className={this.props.form.htmlClass}>
         <Checkbox
           name={this.props.form.key.slice(-1)[0]}
           value={this.props.form.key.slice(-1)[0]}
